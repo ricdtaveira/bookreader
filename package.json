@@ -1,0 +1,21 @@
+{
+  "name": "bookreader",
+  "version": "1.0.0",
+  "description": "Leitor de Livros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no teste specified\" && exit 1",
+    "start": "nodemon",
+    "production": "pm2 start index.js --name bookreader-backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pm2": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon":""
+  }
+}

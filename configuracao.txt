@@ -1,0 +1,16 @@
+## Instalação do Node
+npm install -y
+
+## Instalar o express 
+npm i --save express
+
+## Instalar o launcher nodemon (usado no desenvolvimento)
+npm i --save-dev nodemon
+
+## Instalar o launcher pm2 
+npm i -g pm2 
+
+## Executar o pm2
+
+
+
